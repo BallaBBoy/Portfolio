@@ -1,0 +1,63 @@
+{
+	box-sizing: border-box;
+}
+
+body{
+	background: gray;
+}
+
+#Topbar{
+	background:#A9CDDF;
+	max-height:100px;
+	width:100%;
+	position:fixed;
+	text-align: left;
+	font-family: 'Rock Salt', cursive;
+	margin-bottom:6%;
+	border:solid black;
+	align-items:center;
+}
+.TopBarHeading{
+	font-size:30px;
+	color:#ED2A6D;
+}
+.Subject{
+	height: 550px;
+	font-size: 30px;
+	width: 100%;
+	background:#A9CDDF;
+	float:left;
+	margin-left:2%;
+	margin-right:2%;
+	margin-top:9%;
+	margin-bottom:2%;
+	border:solid black;
+}
+.Title{
+	font-size:30px;
+	float:center;
+}
+.ExplainationFont{
+	font-size:50px;
+	font-family: 'Modak', cursive;
+	font-color:black;
+	float:left;
+}
+.Pic{
+	width:100px;
+	height:100px;
+}
+
+.ExplanationHover{
+
+}
+
+.HoverPic:hover{
+	height:1000px;
+	width:1000px;
+}
+
+.HoverPic{
+	width: 200px;
+	height: 200px;
+}
